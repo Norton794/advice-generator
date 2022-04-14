@@ -7,8 +7,7 @@ export default function Advice(props) {
       <div className="advice">
         <AdviceNumber text="ADVICE #117" />
         <p className="quote">
-          "It is easy to sit up and take notice, what's difficult is getting up
-          and taking action."
+         "{props.advice && props.advice.slip.advice}"
         </p>
 
         <img

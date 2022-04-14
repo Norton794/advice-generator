@@ -42,3 +42,14 @@
   background-color: #33FF99;
 box-shadow: 0px 0px 40px 5px #33FF99;
 }
+
+@media (max-width: 600px) {
+  .advice {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    padding: 25px;
+    background-color: #323a49;
+    border-radius: 10px;
+  }
+}
