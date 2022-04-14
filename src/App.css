@@ -1,19 +1,44 @@
-.main{
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-.advice{
-  display: grid;
-  place-items: center;
-  width: 400px;
-  height: 250px;
-  background-color: #323A49;
+.advice {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  padding: 25px;
+  background-color: #323a49;
   border-radius: 10px;
 }
 
-.quote{
+.quote {
   font-size: 28px;
   color: #ccc;
+}
+
+.dice-ball{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.dice{
+  width: 50px;
+  height: 50px;
+  background-color: #52FFA8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.dice:hover{ 
+  background-color: #33FF99;
+box-shadow: 0px 0px 40px 5px #33FF99;
 }
