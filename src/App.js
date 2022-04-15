@@ -19,7 +19,6 @@ export default function App() {
     axios
       .get("https://api.adviceslip.com/advice")
       .then((resp) => {
-        console.log(resp.data)
         setAdvice(resp.data);
       })
       .catch((err) => console.log("Error", err));

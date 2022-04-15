@@ -6,14 +6,14 @@ export default function Advice(props) {
       <div className="advice">
         <AdviceNumber text={`ADVICE #${props.advice && props.advice.slip.id}`} />
         <p className="quote">
-         "{props.advice && props.advice.slip.advice}"
+        &ldquo;{props.advice && props.advice.slip.advice}&rdquo;
         </p>
 
-        <img
-          src="/img/pattern-divider-desktop.svg"
-          alt="pattern-divider"
+        <div
+        //   src="/img/pattern-divider-desktop.svg"
+        //   alt="pattern-divider"
           className={`divider`}
-        />
+        ></div>
 
         <div className="dice-ball">
           <div className="dice" onClick={props.getAdvice}>
