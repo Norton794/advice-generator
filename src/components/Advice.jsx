@@ -5,7 +5,7 @@ export default function Advice(props) {
   return (
     <div className="main">
       <div className="advice">
-        <AdviceNumber text="ADVICE #117" />
+        <AdviceNumber text={`ADVICE #${props.advice && props.advice.slip.id}`} />
         <p className="quote">
          "{props.advice && props.advice.slip.advice}"
         </p>
@@ -13,11 +13,11 @@ export default function Advice(props) {
         <img
           src="/img/pattern-divider-desktop.svg"
           alt="pattern-divider"
-          style={{ marginTop: "20px" }}
+          style={{ marginTop: "5px" }}
         />
 
         <div className="dice-ball">
-          <div className="dice">
+          <div className="dice" onClick={props.getAdvice}>
             <img src="/img/icon-dice.svg" alt="dice" />
           </div>
         </div>

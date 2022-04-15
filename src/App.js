@@ -27,7 +27,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <Advice advice={advice} />
+      <Advice advice={advice} getAdvice={getAdvice} />
     </div>
   );
 }
