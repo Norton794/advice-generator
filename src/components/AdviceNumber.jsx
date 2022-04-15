@@ -1,6 +1,5 @@
-import react from "react";
 import "./AdviceNumber.css";
-export default (props) => {
+export default function AdviceNumber(props){
   return (
     <div>
       <h6 className="advice-number">{props.text}</h6>

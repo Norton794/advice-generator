@@ -1,4 +1,3 @@
-import react from "react";
 import AdviceNumber from "./AdviceNumber";
 
 export default function Advice(props) {
