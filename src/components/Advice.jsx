@@ -13,7 +13,7 @@ export default function Advice(props) {
         <img
           src="/img/pattern-divider-desktop.svg"
           alt="pattern-divider"
-          style={{ marginTop: "5px" }}
+          className={`divider`}
         />
 
         <div className="dice-ball">
